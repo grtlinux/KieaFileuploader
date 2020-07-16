@@ -6,7 +6,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class StorageProperties {
 
 	//rivate String location = "upload-dir"; // Users/kangmac/STS_workspace/KieaDemo-3/upload-dir
-	private String location = "/Users/kangmac/upload-dir";
+	//private String location = "/Users/kangmac/upload-dir";
+	private String location = System.getenv("HOME") + "/upload-dir";
 	
 	public String getLocation() {
 		return this.location;
