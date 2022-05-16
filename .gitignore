@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.nar
 *.ear
@@ -24,7 +24,7 @@ hs_err_pid*
 
 # ------ written by Kiea at 2020-06-01 ---------
 bin/
-
+.DS_Store
 
 
 

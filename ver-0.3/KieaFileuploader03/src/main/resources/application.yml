@@ -1,0 +1,18 @@
+
+
+server:
+  port: 8080
+
+spring:
+  servlet.multipart:
+    enabled: true
+    # location: ~/FILES
+    location: /Users/kang-air/FILES/_IMSI
+    max-file-size: 5GB
+    max-request-size: 5GB
+
+
+
+
+
+
